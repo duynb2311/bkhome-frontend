@@ -1,0 +1,133 @@
+.homepage{
+    z-index: 1;
+    h1, h2,h3{
+        color: #01ADBA;
+    }
+    .search-bar{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #01ADBA;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 8px;
+        position: relative;
+        cursor: pointer;
+        span{
+            color: #777777;
+            cursor: pointer;
+        }
+        .address{
+            display: flex;
+            align-items: center;
+            height: 35px;
+            width: 40%;
+            border: 2px solid #01ADBA;
+            position: relative;
+            .bold-span{
+                color: black;
+                font-weight: bold;
+            }
+            .delete-icon{
+                position: absolute;
+                right: 2px;
+                z-index: 100;
+            }
+        }
+        .address-choose{
+            position: absolute;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            top: 50px;
+            left: 0px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                margin-bottom: 0px;
+            }
+        }
+        .price{
+            display: flex;
+            align-items: center;
+            height: 35px;
+            width: 25%;
+            border: 2px solid #01ADBA;
+            position: relative;
+            cursor: pointer;
+            .bold-span{
+                color: black;
+                font-weight: bold;
+            }
+            .delete-icon{
+                position: absolute;
+                right: 2px;
+            }
+        }
+        .price-choose{
+            position: absolute;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            top: 50px;
+            left: 0px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .area{
+            display: flex;
+            align-items: center;
+            height: 35px;
+            width: 17%;
+            border: 2px solid #01ADBA;
+            position: relative;
+            cursor: pointer;
+            .bold-span{
+                color: black;
+                font-weight: bold;
+            }
+            .delete-icon{
+                position: absolute;
+                right: 2px;
+            }
+        }
+        .area-choose{
+            position: absolute;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            top: 50px;
+            left: 0px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        button{
+            width: 12%;
+            height: 35px;
+            border: none;
+            background-color: #01ADBA;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    }
+    .MuiPagination-root{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .MuiPaginationItem-sizeLarge {
+        font-size: 16px;
+    }
+}

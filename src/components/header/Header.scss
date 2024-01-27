@@ -1,0 +1,98 @@
+.navbar-custom{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 18%;
+    padding-right: 18%;
+    align-items: center;
+    button{
+        margin-left: 20px;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .login{
+        background-color: #01ADBA;
+        border: none;
+        color: white;
+    }
+    .signup{
+        background-color: white;
+        color: #01ADBA;
+        border-color: #01ADBA;
+    }
+    .post{
+        background-color: white;
+        color: #01ADBA;
+        border-color: #01ADBA;
+        width: 100px;
+        padding-right: 20px;   
+        position: relative;
+        .icon{
+            position: absolute;
+            top:4px;
+            right: 5px;
+            height: 18px;
+            width: 18px;
+        }
+    }
+    .left{
+        img{
+            height: 50px;
+            width: 185px;
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .user-info{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+            .user-avatar{
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                margin-left: 10px;
+            }
+        }
+        .user-info:hover{
+            cursor: pointer;
+        }
+    }
+}
+.menubar{
+    padding-left: 18%;
+    padding-right: 18%;
+    background-color: #01ADBA;
+    border: none;
+    ul{
+        display: flex;
+        padding: 0;
+        height: 30px;
+        margin-bottom: 0;
+        a{
+            color: white;
+        }
+    }
+    li{
+        height: 100%;
+        color: white;
+        list-style: none;
+        list-style-type: none;
+        padding-left: 10px;
+        padding-right: 50px;
+        display: flex;
+        align-items: center;
+    }
+    li:hover{
+        background-color: #F73859;
+        cursor: pointer;
+    }
+}

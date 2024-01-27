@@ -1,0 +1,53 @@
+.post-item {
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid #01ADBA;
+    border-bottom: 2px solid #01ADBA;
+    .item-image {
+        width: 280px;
+        min-width: 280px;
+        height: 200px;
+        overflow: hidden;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+    .info{
+        padding-left: 10px;
+        position: relative;
+        flex:1;
+        .title{
+            font-size:20px;
+            font-weight: bold;
+            color: #E13427;
+            cursor: pointer;
+        }
+        .first-row{
+            .rent-fee{
+                font-weight: bold;
+                color: #01ADBA;
+                margin-right: 20px;
+            }
+        }
+        .second-row{
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            background-color: white;
+            border: 2px solid #01ADBA;
+            font-weight: bold;
+            color: #01ADBA;
+            width: 80px;
+            border-radius: 3px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+    }
+}

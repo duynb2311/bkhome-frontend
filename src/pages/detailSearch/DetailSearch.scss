@@ -1,0 +1,160 @@
+.search-form{
+    h1, h2{
+        color: #01ADBA;
+    }
+    label{
+        font-weight: bold;
+    }
+    input{
+        height: 30px;
+        margin-bottom: 5px;
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    select{
+        height: 33px;   
+        margin-bottom: 5px;
+        margin-top: 3px;    
+    }
+    .errors{
+        color: red;
+        font-size: 14px;
+    }
+    .address{
+        div{
+            margin-bottom: 20px;
+        }
+        .select-address{
+            display: flex;
+            justify-content: space-between;
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                margin-bottom: 0px;
+            }
+        }
+        .input{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+        .full-address{
+            display: flex;
+            flex-direction: column;
+            span{
+                margin-top: 10px;
+                width: fit-content;
+                background-color: #E9ECEF;
+                height: 35px;
+                line-height: 35px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+    .bus{
+        div{
+            display: flex;
+            flex-direction: column;
+            input,select{
+                width: 400px;
+            }
+        }
+    }
+    .base-info{
+        div{
+            margin-bottom: 20px;
+        }
+        .input{
+            .cost-input{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                input{
+                    width: 70%;
+                }
+                span{
+                    width: 100px;
+                    text-align: center;
+                    background-color: #E9ECEF;
+                    height: 35px;
+                    line-height: 35px;
+                }
+            }
+        }
+        .infor{
+            display: flex;
+            flex-direction: column;
+            select{
+                width: 30%;
+            }
+            input{
+                width: 80%;
+            }
+            span{
+                margin-top: 10px;
+                width: fit-content;
+                background-color: #E9ECEF;
+                height: 35px;
+                line-height: 35px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+    .structure{
+        div{
+            margin-bottom: 20px;
+        }
+        .choose-structure{
+            display: flex;
+            .checkbox-label {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-weight: normal;
+                margin-right: 40px;
+            }
+        }
+    }
+    .furniture{
+        .choose-furniture{
+            display: flex;
+            .checkbox-label {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-weight: normal;
+                margin-right: 40px;
+            }
+        }
+    }
+    .other-feature{
+        .choose-feature{
+            display: flex;
+            .checkbox-label {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-weight: normal;
+                margin-right: 40px;
+            }
+        }
+    }
+    .submit{
+        display: flex;
+        justify-content: space-around;
+        .searchbut{
+            height: 40px;
+            width: 150px;
+            font-size: 24px;
+            border: none;
+            background-color: #01ADBA;
+            color: white;
+            margin-bottom: 50px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+}

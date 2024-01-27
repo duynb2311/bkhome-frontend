@@ -1,0 +1,74 @@
+//@import "~bootstrap/dist/css/bootstrap.min.css";
+.postdetail{
+    display: flex;
+    min-height: 500px;
+    .left{
+        width: 75%;
+        .left.carousel-control,
+        .right.carousel-control {
+            width: 70px;
+        }
+        li{
+            margin-top: 10px;
+        }
+        ul{
+            padding-left: 30px;
+        }
+        .base-info{
+            display: flex;
+            span{
+                margin-right: 50px;
+            }
+        }
+        .notice{
+            color: red;
+            font-weight: bold;
+            font-style: italic;
+            margin-bottom: 50px;
+        }
+    }
+    .right{
+        width: 25%;
+        .poster{
+            width: 220px;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #01ADBA;
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            img{
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-bottom: 0px;
+            }
+            span{
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+            .phone{
+                color: white;
+                background-color: #01ADBA;
+                border: none;
+                border-radius: 3px;
+                width: 150px;
+                text-align: center;
+            }
+            button{
+                background-color: white;
+                border: 2px solid #01ADBA;
+                width: 150px;
+                font-weight: bold;
+                color: #01ADBA;
+                border-radius: 3px;
+            }
+        }
+    }
+}

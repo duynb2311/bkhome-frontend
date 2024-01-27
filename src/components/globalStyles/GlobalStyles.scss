@@ -1,0 +1,13 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+/* Sử dụng Roboto làm font mặc định cho toàn bộ trang web */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+}
