@@ -45,7 +45,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install --force
-        npm run build --if-present
+        npm run build -- --warn 0
         npm run test --if-present
 
     - name: Upload artifact for deployment job
