@@ -48,11 +48,18 @@ jobs:
         npm install --force
         npm run build -- --warn 0
 
+    # Zip the build directory
+    - name: Zip Release
+      uses: TheDoctor0/zip-release@0.6.1
+      with:
+        filename: release.zip
+        path: ./build/*
+
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        path: .
+        path: release.zip
 
   deploy:
     permissions:
@@ -75,4 +82,4 @@ jobs:
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        package: release.zip
